@@ -24,7 +24,7 @@ FreeToken is an edge-native Mixture-of-Experts (MoE) serving engine designed for
 - **Diverse Consumer Hardware**: Scales across consumer laptops, gaming desktops, and workstation GPUs, with native support for NVIDIA RTX 30, RTX 40, and RTX 50 series GPUs.  
 
 
-Currently under re-engineering with the objective to back-port essential functionalities to Nvidia Quadro P6000 (sm_61) . Re-optimization of kernels and hybridation with emulate intrisics. Early validation operated with Qwen3.5-9B shows promising results.
+Currently under re-engineering with the objective to back-port essential functionalities to Nvidia Quadro P6000 (sm_61) . Re-optimization of kernels and hybridation with emulated intrisics. Early validation operated with Qwen3.5-9B shows promising results.
 
 ## Getting Started
 
