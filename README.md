@@ -23,15 +23,10 @@ FreeToken is an edge-native Mixture-of-Experts (MoE) serving engine designed for
 - **Broad MoE & Ecosystem Support**: Supports frontier open-weight MoE models (e.g., DeepSeek-V4-Flash, Qwen3.6-35B-A3B, GLM-5.2) across various parameter scales and quantization formats (e.g., MXFP4, NVFP4, FP8, BF16), with Anthropic/OpenAI-compatible APIs for seamless integration with real-world coding and tool-calling agents (e.g., Codex, Claude Code, OpenCode, OpenClaw, DeepSeek Harness). 
 - **Diverse Consumer Hardware**: Scales across consumer laptops, gaming desktops, and workstation GPUs, with native support for NVIDIA RTX 30, RTX 40, and RTX 50 series GPUs.  
 
+
+Currently under re-engineering with the objective to back-port essential functionalities to Nvidia Quadro P6000 (sm_61) . Re-optimization of kernels and hybridation with emulate intrisics. Early validation operated with Qwen3.5-9B shows promising results.
+
 ## Getting Started
-
-### Desktop app
-
-Download FreeToken for Windows or Linux at [flashml.ai](https://www.flashml.ai/). It sets the engine up for you and gives you a GUI for running models, chatting, and tuning the engine.
-
-<div align="center">
-  <img alt="FreeToken Desktop" src="https://raw.githubusercontent.com/FlashML-org/FreeToken/main/assets/desktop-console.png" width=92%>
-</div>
 
 ### CLI
 
